@@ -60,7 +60,7 @@ class WareHouses extends Component {
               <Input
                 style={(whiteStyle, { backgroundColor: "#606060" })}
                 id="input-with-icon-adornment"
-                placeholder="search "
+                placeholder="search"
                 value={sub}
                 st
                 onChange={(e) => {
