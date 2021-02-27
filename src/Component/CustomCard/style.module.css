@@ -1,0 +1,84 @@
+.card_container_elevation_0 {
+  min-width: 200px;
+  min-height: 200px;
+  background-color: black;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0)
+  );
+  border-radius: 10px;
+  transition: 0.5s all;
+  box-shadow: rgba(0, 0, 0, 1);
+}
+.card_container_elevation_1 {
+  min-width: 200px;
+  min-height: 200px;
+  background-color: black;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05)
+  );
+  border-radius: 10px;
+  transition: 0.5s all;
+  box-shadow: rgba(0, 0, 0, 1);
+}
+.card_container_elevation_2 {
+  min-width: 200px;
+  min-height: 200px;
+  background-color: black;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
+  border-radius: 10px;
+  transition: 0.5s all;
+  box-shadow: rgba(0, 0, 0, 1);
+}
+.card_container_elevation_3 {
+  min-width: 200px;
+  min-height: 200px;
+  background-color: black;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0.15)
+  );
+  border-radius: 10px;
+  transition: 0.5s all;
+  box-shadow: rgba(0, 0, 0, 1);
+}
+.card_container_elevation_4 {
+  min-width: 200px;
+  min-height: 200px;
+  background-color: black;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.2)
+  );
+  border-radius: 10px;
+  transition: 0.5s all;
+  box-shadow: rgba(0, 0, 0, 1);
+}
+.card_container_elevation_5 {
+  min-width: 200px;
+  min-height: 200px;
+  background-color: black;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0.25)
+  );
+  border-radius: 10px;
+  transition: 0.5s all;
+  box-shadow: rgba(0, 0, 0, 1);
+}
+.card_container_elevation_6 {
+  min-width: 200px;
+  min-height: 200px;
+  background-color: black;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 10px;
+  transition: 0.5s all;
+  box-shadow: rgba(0, 0, 0, 1);
+}
