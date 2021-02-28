@@ -27,6 +27,7 @@ export default function CityMenu(props) {
       <Button
         aria-controls="fade-menu"
         aria-haspopup="true"
+        fullWidth
         onClick={handleClick}
         style={{ color: "white", border: "2px solid white", marginTop: "10px" }}
       >

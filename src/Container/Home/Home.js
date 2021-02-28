@@ -14,6 +14,7 @@ class Home extends Component {
               background: "rgba(255,255,255,0.05)",
               padding: 30,
               display: "flex",
+              marginBottom: 20,
               justifyContent: "center",
             }}
           >

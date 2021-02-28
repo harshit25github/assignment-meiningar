@@ -42,49 +42,52 @@ class WareHouses extends Component {
     return (
       <div className="body">
         <Container>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              height: 100,
-            }}
+          <Grid
+            container
+            spacing={3}
+            style={{ marginBottom: "5vh", marginTop: "5vh" }}
           >
-            <FormControl>
-              <InputLabel
-                htmlFor="input-with-icon-adornment"
-                style={{ color: "white", marginBottom: "10px" }}
-              >
-                Search by Name
-              </InputLabel>
-              <Input
-                style={(whiteStyle, { backgroundColor: "#606060" })}
-                id="input-with-icon-adornment"
-                placeholder="search"
-                value={sub}
-                st
-                onChange={(e) => {
-                  this.setState({ sub: e.target.value });
-                }}
-                startAdornment={
-                  <InputAdornment position="start">
-                    <SearchOutlined style={whiteStyle} />
-                  </InputAdornment>
+            <Grid item xs={12} sm={4}>
+              <FormControl fullWidth>
+                <InputLabel
+                  htmlFor="input-with-icon-adornment"
+                  style={{ color: "white", marginBottom: "10px" }}
+                >
+                  Search by Name
+                </InputLabel>
+                <Input
+                  style={(whiteStyle, { backgroundColor: "#606060" })}
+                  id="input-with-icon-adornment"
+                  placeholder="search"
+                  value={sub}
+                  st
+                  onChange={(e) => {
+                    this.setState({ sub: e.target.value });
+                  }}
+                  startAdornment={
+                    <InputAdornment position="start">
+                      <SearchOutlined style={whiteStyle} />
+                    </InputAdornment>
+                  }
+                />
+              </FormControl>
+            </Grid>
+            <Grid item xs={12} sm={4}>
+              <FadeMenu
+                onCitySelected={(city) => this.setState({ city: city })}
+                city={city}
+              />
+            </Grid>
+            {/* {cities} */}
+            <Grid item xs={12} sm={4}>
+              <FadeMenuCluster
+                cluster={cluster}
+                onClusterSelected={(cluster) =>
+                  this.setState({ cluster: cluster })
                 }
               />
-            </FormControl>
-            <FadeMenu
-              onCitySelected={(city) => this.setState({ city: city })}
-              city={city}
-            />
-            {/* {cities} */}
-            <FadeMenuCluster
-              cluster={cluster}
-              onClusterSelected={(cluster) =>
-                this.setState({ cluster: cluster })
-              }
-            />
-          </div>
+            </Grid>
+          </Grid>
           <Grid container spacing={3}>
             {wareHouses}
           </Grid>

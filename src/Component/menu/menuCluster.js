@@ -38,6 +38,7 @@ export default function ClusterMenu(props) {
         aria-controls="fade-menu"
         aria-haspopup="true"
         onClick={handleClick}
+        fullWidth
         style={{ color: "white", border: "2px solid white", marginTop: "10px" }}
       >
         {props.cluster || "Cluster"}
